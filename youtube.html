@@ -38,15 +38,16 @@
         vertical-align: top;
         margin-right: 15px;
       }
+
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
       .channel-picture-div {
-        display: inline-block;
-        width: 50px;
         vertical-align: top;
         background-color: gray;
       }
       .video-info-div {
-        display: inline-block;
-        width: 245px;
         background-color: gray;
       }
       .profile-picture {
@@ -80,7 +81,7 @@
         />
       </div>
 
-      <div>
+      <div class="video-info-grid">
         <div class="channel-picture-div">
           <img
             class="profile-picture"
@@ -110,7 +111,7 @@
         />
       </div>
 
-      <div>
+      <div class="video-info-grid">
         <div class="channel-picture-div">
           <img
             class="profile-picture"
